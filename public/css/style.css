@@ -1,0 +1,85 @@
+/* Center align the pagination controls */
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Form styling */
+.form-container {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    color: #495057;
+}
+
+.form-container .form-group label {
+    color: #495057;
+    font-weight: bold;
+}
+
+.form-container .form-control {
+    border-radius: 4px;
+}
+
+.form-container #submitBtn,
+.form-container #updateBtn {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Table styling */
+.table-container {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.table-container h2 {
+    margin-bottom: 20px;
+    color: #495057;
+}
+
+.table thead th {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.table th {
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* Modal styling */
+.modal-header {
+    background-color: #dc3545;
+    color: white;
+    position: relative;
+}
+
+.modal-title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.modal-footer .btn-secondary {
+    background-color: #6c757d;
+}
+
+.modal-footer .btn-danger {
+    background-color: #dc3545;
+}
